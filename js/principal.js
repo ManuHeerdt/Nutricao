@@ -2,3 +2,5 @@ var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Aparecida Nutricionista");
+
+var paciente = documnet.querySelector("#primeiro-paciente")
