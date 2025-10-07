@@ -9,6 +9,8 @@ console.log (paciente);
 var tdNome = paciente.querySelector(".info-nome");
 var nome = tdNome.textContent;
 console.log(nome);
+for (var i = 0; i < pacientes.length; i++ {
+    var paciente = pacientes[i]
 
 var tdPeso = paciente.querySelector(".info-peso");
 var peso = tdPeso.textContent;
@@ -23,4 +25,5 @@ console.log(imc);
 
 var tdImc = paciente.querySelector(".info-imc");
 tdImc.textContent + imc.toFixed(2);
+}
 
