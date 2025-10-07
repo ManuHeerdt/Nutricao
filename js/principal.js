@@ -3,7 +3,7 @@ console.log(titulo);
 console.log(titulo.textContent);
 titulo.textContent = ("Aparecida Nutricionista");
 
-var paciente = document.querySelector(".info-nome");
+var paciente = document.querySelector("#primeiro-paciente");
 var paciente = tdNome.textContent;
 console.log(nome);
 
