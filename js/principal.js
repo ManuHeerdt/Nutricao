@@ -30,15 +30,16 @@ var alturaEhvalida = true;
 if (peso <0 || peso >1000) {
     console.log("Peso inválido");
     pesoEhValido = false;
-
+    tdImc.textContent="Peso Inválido";
 }
 
 if (altura < 0 || altura > 3.00){
     console.log("Altura inválida");
-    alturaEhValida = false
+    alturaEhValida = false;
+    tdImc.textContent="Altura Inválida!";
+
+
 }
-
-
 
 if (alturaEhValida && pessoValido) {
     var imc = peso/ (altura * altura);
