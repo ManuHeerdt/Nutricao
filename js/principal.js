@@ -16,10 +16,8 @@ var tdAltura = document.querySelector(".info-altura")
 var altura = tdAltura.textContent;
 console.log(altura);
 
-var Tdimc = paciente.querySelector (".info-imc");
+var tdImc = paciente.querySelector (".info-imc");
 console.log(imc);
-
-
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //10/10 
