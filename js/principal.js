@@ -19,8 +19,7 @@ console.log(altura);
 var Tdimc = paciente.querySelector (".info-imc");
 console.log(imc);
 
-var tdImc = paciente.querySelector(".info-imc");
-tdImc.textContent + imc.toFixed(2);
+
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //10/10 
