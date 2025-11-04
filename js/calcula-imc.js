@@ -44,6 +44,11 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 }
 
+function calculaImc (peso, altura){
+    var imc = peso / (altura * altura);
+    tdImc.textContent = imc.toFixed(2)
+}
+
 // 23/10
 
 // titulo.addEventListener() adiciona um escutador de eventos. 
